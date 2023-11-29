@@ -37,4 +37,25 @@ const myfunction=function(){
 // console.log(typeof id);//symbol
 
 
+//Stack memory(Primitive), Heap (Non-Primitive)
+
+let myYoutubename="sandeepkumarsaroj"
+
+let anothername=myYoutubename//copy of myYoutubename assigned
+anothername="saroj"
+
+// console.log(myYoutubename)//sandeepkumarsaroj
+// console.log(anothername)//saroj
+
+let userOne={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo=userOne  //same memory reference assign to usertwo as userOne
+userTwo.email="sandeep@google.com"
+
+// console.log(userOne.email);//sandeep@google.com
+// console.log(userTwo.email);//sandeep@google.com
+
 
