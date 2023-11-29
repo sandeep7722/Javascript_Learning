@@ -28,3 +28,8 @@ let stringNumber=String(someNumber);
 console.log(stringNumber);//45
 console.log(typeof stringNumber);// string
 
+let posValue=1
+
+let negValue=-posValue
+console.log(negValue)
+
